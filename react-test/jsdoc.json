@@ -1,0 +1,16 @@
+{
+    "source": {
+        "include": ["src"],
+        "includePattern": ".jsx$",
+        "excludePattern": "(nodes_modules/|docs)"
+    },
+    "plungins": ["plungins/markdown"],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "./docs/"
+    }
+}
